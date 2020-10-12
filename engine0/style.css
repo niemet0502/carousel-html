@@ -408,3 +408,32 @@
 		display: none
 	}
 }
+
+.text-content a button{
+	background: transparent;
+	padding: 2em;
+	color: white;
+	border: 1px solid white;
+}
+.text-content a button:hover{
+	transition: 0.5s;
+	background-color: white;
+	color: black;
+}
+.text-content a h3{
+	color: white;
+    font-size: 1.075em;
+    letter-spacing: .05em;
+    opacity: .6;
+}
+.text-content a h1{
+	color: white;
+	font-size: 4em;
+	margin: 0px;
+	margin-bottom: 20px;
+}
+.text-content{
+	color: white;
+	position: relative;
+	top: -280px;
+}
